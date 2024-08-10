@@ -1,0 +1,5 @@
+
+1. Build executable file
+    g++ kill.cc -o kill
+2. Run
+    kill 2300(pid) 1(signal id)
