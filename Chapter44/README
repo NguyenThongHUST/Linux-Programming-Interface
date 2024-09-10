@@ -1,0 +1,7 @@
+
+1. Compiling with lib folder
+g++ -Iinclude simple_pipe.cc lib/*.c -o main
+
+2. Example
+g++ -w  -Iinclude pipe_sync.cc lib/*.c -o pipe_sync
+./pipe_sync 4 2 6
